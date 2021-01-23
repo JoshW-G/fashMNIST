@@ -51,8 +51,8 @@ to follow suite as it is an adaption of multinomial NB suited for imbalanced dat
 Distribution increases in accuracy with binary data.
 
 
-
-```
+|Average Accuracy             |
+|-----------------------------|
 |NB Model    | normal| binary |
 |------------|-------|--------|
 |Categorical | N/A   |   71.  |
@@ -60,9 +60,10 @@ Distribution increases in accuracy with binary data.
 |Complement  | 60.7  |   56   |
 |Bernoulli   | N/A   |   71.  |
 |Multinomial | 66.7  |   59.  |
-```
+
 
 ![](img/rf.bmp)
+
 With Random Forests I wanted to establish which
 parameters have greater effect on the accuracy and
 what their optimal values are. I established
@@ -83,6 +84,7 @@ better time to compute.
 
 
 ![](img/svm.bmp)
+
 With SVM, I established using binary data which out of
 the 4 kernels (Radial Basis function RBF, SVCLinear,
 Polynomial, Sigmoid) performed better. Sigmoid had
