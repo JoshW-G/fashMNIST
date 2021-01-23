@@ -50,17 +50,19 @@ and Complement naïve bayes decreases in accuracy with binarized, complement NB 
 to follow suite as it is an adaption of multinomial NB suited for imbalanced data sets. Gaussian
 Distribution increases in accuracy with binary data.
 
-# Avg Accuracy^
+
 
 ```
-NB Model normal binary
-Categorical N/A 71.
-Gaussian 59.1 66.
-Complement 60.7 56
-Bernoulli N/A 71.
-Multinomial 66.7 59.
+|NB Model    | normal| binary |
+|------------|-------|--------|
+|Categorical | N/A   |   71.  |
+|Gaussian    | 59.1  |   66.  |
+|Complement  | 60.7  |   56   |
+|Bernoulli   | N/A   |   71.  |
+|Multinomial | 66.7  |   59.  |
 ```
 
+![](img/rf.bmp)
 With Random Forests I wanted to establish which
 parameters have greater effect on the accuracy and
 what their optimal values are. I established
@@ -79,6 +81,8 @@ better time complexity and better use of resources in comparison to using the de
 especially for estimators. Binarizing the data has no considerable effect on accuracy but has a
 better time to compute.
 
+
+![](img/svm.bmp)
 With SVM, I established using binary data which out of
 the 4 kernels (Radial Basis function RBF, SVCLinear,
 Polynomial, Sigmoid) performed better. Sigmoid had
