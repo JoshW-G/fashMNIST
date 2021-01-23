@@ -51,7 +51,7 @@ to follow suite as it is an adaption of multinomial NB suited for imbalanced dat
 Distribution increases in accuracy with binary data.
 
 
-#Average Accuracy        
+Average Accuracy        
 
 |NB Model    | normal| binary |
 |------------|-------|--------|
